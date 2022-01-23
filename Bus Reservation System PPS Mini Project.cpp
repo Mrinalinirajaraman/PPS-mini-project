@@ -26,7 +26,7 @@ int main()
 
 {
 		system("cls");
-	printf("\t\t|           BUS TICKET RERSERVATION SYSTEM           |\n");
+	printf("\t\t|           BUS TICKET RESERVATION SYSTEM           |\n");
     printf("\t\t|                            By Mrinalini Rajaraman         |\n");
     printf("\t\t|                            RA2111037010022        |\n");
     printf("\t\t------------------------------------------------------\n");
