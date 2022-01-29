@@ -8,6 +8,7 @@ typedef struct{
 	char name[50];
 	int bus_num;
 	int num_of_seats;
+	int mobile;
 }pd;
 
 
@@ -101,6 +102,8 @@ void reservation(void)
 
 	printf("\nEnter Number of seats:> ");
 	scanf("%d",&passdetails.num_of_seats);
+	printf("\nEnter your mobile number:> ");
+	scanf("%d",&passdetails.mobile);
 	printf("\n\n>>Press Enter To View Available Bus<< ");
 	getch();
 	system("cls");
